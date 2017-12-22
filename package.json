@@ -1,0 +1,16 @@
+{
+  "name": "brain-ring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Illya Fedorovych <illya.fedorovych@gmail.com>",
+  "repository": "https://github.com/Kowalski0805/brain-ring.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
