@@ -13,9 +13,11 @@ Brain ring game assistant. Chooses questions from question base, counts team poi
 # Running the server
 ## Windows
 Open the folder `install-windows` and launch `start.bat`
+
 Console will output the address where server had started, i.e `http://localhost:3000`
 ## Linux
 Execute `npm start`
+
 Console will output the address where server had started, i.e `http://localhost:3000`
 
 # Configuration
@@ -24,6 +26,7 @@ The `config.js` file contains game settings. At the moment you can specify only 
 - `teamCount`: number of teams participating in the game
 - `teamNames`: has structure like `number: "teamName"`. Should be separated by commas except the last one. If team name is not specified, the default name is Team [number], i.e Team 3.
 - `maxQuestions`: maximum number of questions for the game. If not specified, the game will continue until all questions were answered.
+
 The parameters should be separated by commas except the last one. `teamNames` should always contain curly braces `{}`.
 
 ## questions.js
@@ -45,5 +48,7 @@ It contains such fields as:
 - `answer`: question answer (text wrapped into single or double quotes)
 
 Note: when text is wrapped into quotes it MAY NOT contain the same quotes, i.e:
+
 WRONG: `'It's me, Mario'`
+
 RIGHT: `"It's me, Mario"`.
