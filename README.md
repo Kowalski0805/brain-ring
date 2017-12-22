@@ -43,6 +43,7 @@ It contains such fields as:
 - `id`: order number of question (number)
 - `text`: the question itself (text wrapped into single or double quotes)
 - `answer`: question answer (text wrapped into single or double quotes)
+
 Note: when text is wrapped into quotes it MAY NOT contain the same quotes, i.e:
 WRONG: `'It's me, Mario'`
 RIGHT: `"It's me, Mario"`.
