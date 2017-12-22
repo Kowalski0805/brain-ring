@@ -1,4 +1,5 @@
-module.exports = [{
+module.exports = [
+{
 id: 1,
 text: 'The most popular program in the world, although not used by anyone. Bill Gates, Mark Zuckerberg, Steve Wozniak wrote it separately from each other.',
 answer: 'Hello World',
@@ -81,6 +82,7 @@ time: 40,
 points: 1,
 id: "17",
 text: "The first factory of this company was located near the airfield. To ensure that the pilots did not confuse the roof with the runway, an inscription was made on the roof, saying that this company is inside. WHERE CAN WE ALSO SEE THIS INSCRIPTION NOWADAYS AND WHAT DOES IT SAY (2 WORDS)?",
+points: 1,
 answer: "Intel inside"
 },
 {
@@ -99,7 +101,6 @@ answer: "Person (Man) of the Year"
 },
 {
 time: 40,
-points: 1,
 id: "20",
 text: "Contrary to popular belief, computers don't break down mostly due to problems with the electrical network or harmful viruses. WHAT IS THE MOST POPULAR REASON WHY COMPUTERS CRASH?",
 answer: "Tea, coffee, soda etc. spilled on the keyboard"
@@ -166,4 +167,5 @@ points: 1,
 id: "29",
 text: "WHAT IS THE NAME OF THE FIRST VIDEO UPLOADED ON YOUTUBE EVER? (IT'S RELATED TO QUESTION #18)",
 answer: "Me at the zoo"
-}]
+}
+]
